@@ -4,6 +4,7 @@ import laba2.moves.RapidSpin;
 import laba2.moves.SkillSwap;
 import laba2.moves.SwordsDance;
 import ru.ifmo.se.pokemon.Pokemon;
+import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
 
@@ -13,5 +14,6 @@ public class Miltank extends Pokemon {
         super.setType(Type.NORMAL);
         super.setStats(95, 80, 105, 40, 70, 100);
         super.setMove(new RapidSpin(), new SkillSwap(), new SwordsDance(), new MudSlap());
+        super.setMode(Stat.)
     }
 }
